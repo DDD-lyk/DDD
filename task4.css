@@ -1,0 +1,123 @@
+html,body,div,h1,p,img,ul,li{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-size: 62.5%;
+    font-family: "Hiragino Sans GB W3", "Hiragino Sans GB W6", Arial, sans-serif;
+    background: gray;
+     }
+.wrap{
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #29bde0;
+}
+.header{
+    width:100%;
+    background: rgb(41,189,224);
+    height: 130px;
+    border-bottom: 1px solid #74d4eb ;
+}
+.header h1{
+    font-family:"Hiragino Sans GB W6", sans-serif;
+    text-align: center;
+    font-size: 3.4em;
+    padding-top: 5.9735%;
+    padding-bottom: 1.25%;
+    color: #ffffff;
+}
+.home {
+    width: 7.96875%;
+    float: left;
+    padding-top: 4.22%;
+    padding-left: 3.125%;
+    clear: both;
+}
+.home img{
+    max-width: 51px;
+}
+.info {
+    width:6.5625%;
+    float: right;
+    margin-top:-8%;
+    padding-right:3.125%;
+    clear: both;
+}
+.info img{
+    max-width: 40px;
+}
+.main{
+    position: relative;
+    height: 625px;
+    background:#29bde0 ;
+    border-bottom: 1px solid #74d4eb ;
+}
+.result{
+    position: absolute;
+    top:3.2%;
+    left:21.875%;
+}
+.explain{
+    position: absolute;
+    top:39.2%;
+    left:12.5%;
+    right: 12.5%;
+}
+.explain p{
+    font-size: 3.6em;
+    color: #ffc865;
+    text-align: left;
+}
+.content{
+    position: absolute;
+    left:12.5%;
+    right:12.5%;
+    top:68%;
+}
+.content p{
+    font-size: 1.5rem;
+    color: #ecf7fb;
+}
+.day{
+    height: 164px;
+    background: #ffffff;
+    border-bottom: 2px solid #dddddd;
+    margin-top: 0 ;
+}
+.day h1 {
+    font-size: 2.6rem;
+    margin: 0 0 2% 10.9375%;
+    color: #515151;
+}
+.day h1 span {
+    font-size: 1.5rem;
+    color: #D5D5D5;
+    margin-left: 50%;
+}
+.day p {
+    font-size: 1.8rem;
+    color: #A6A6A6;
+}
+.blank{
+    padding: 60px;
+    background-color: #FFF;
+    border-top: 1px solid #DDD;
+}
+.foot{
+    max-width: 640px;
+    width: 100%;
+    height: 129px;
+    position: fixed;
+    bottom: 0;
+    background-color: #99dff0;
+}
+.again{
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.share{
+    margin-top: 24px;
+    margin-right: 24px;
+}
